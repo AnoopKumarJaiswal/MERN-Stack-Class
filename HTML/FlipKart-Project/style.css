@@ -1,0 +1,219 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+
+#main{
+    background-color: whitesmoke;
+}
+
+
+
+#navbar{
+    display: flex;
+    gap: 20px;
+    padding-left: 150px;
+    background-color: white;
+    padding-top: 20px;
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+}
+
+
+
+#input-container{
+    position: relative;
+}
+
+
+#Search-icon{
+    position: absolute;
+    left: 20px;
+    top: 10px;
+}
+
+#input-text{
+    width: 600px;
+    height: 30px;
+    border-radius: 5px;
+    outline: none;
+    padding-left: 50px;
+    border: none;
+    background-color: aliceblue;
+}
+
+
+#nav-btn-1 > a{
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+#nav-btn-2 > a{
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    font-size: 14px;   
+}
+
+
+
+#nav-btn-3 > a{
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    font-size: 14px;
+
+}
+
+
+
+#img-container{
+    display: flex;
+    width: 70vw;
+    height: 100px;
+    margin: auto;
+    gap: 50px;
+    background-color: white;
+    padding-left: 200px;
+    margin-top: 100px;
+    
+}
+
+#img-container > div > img{
+    width: 50px;
+    padding-top: 10px;
+    
+}
+
+
+.hover:hover{
+    scale: 1.1;
+    transition-duration: 1ms;
+}
+
+#img-container > div > p{
+    font-size: 10px;
+}
+
+
+#wide-img{
+    width: 83vw;
+    margin: auto;
+    display: flex;
+    margin-top: 10px;
+}
+
+
+
+#BE-container
+{
+    width: 70vw;
+    height: 250px;
+    background-color: white;
+    margin-top: 20px;
+    
+}
+
+#BE-img-container{
+    display: flex;
+    gap: 20px;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    
+}
+
+
+#BE-main{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#side-img{
+    margin-left: 20px;
+    margin-top: 10px;
+    height: 300px;
+}
+
+.img{
+    padding: 10px 70px 10px 70px;
+}
+
+
+
+.img > div > p{
+    text-align: center;
+}
+
+
+.img:hover{
+    scale: 1.1;
+    transition-duration: 1ms;
+}
+
+#BFT-container{
+    width: 82vw;
+    height: 300px;
+    background-color: white;
+    margin: auto;
+    
+    
+}
+
+
+#BFT-img-container{
+    display: flex;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    
+}
+
+
+
+#BFT-img-container >div > img{
+    padding : 30px 70px 30px 70px;
+}
+
+
+#BFT-img-container >div >div > p{
+    text-align: center;
+}
+
+
+
+
+h2{
+    padding: 20px;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+
+p{
+    font-family: sans-serif;
+    font-size: 10px;
+}
+
+
+.bold-text{
+    font-weight: bold;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+

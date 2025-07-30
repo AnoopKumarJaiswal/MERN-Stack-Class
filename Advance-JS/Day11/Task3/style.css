@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+#grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+
+#card{
+    height: 350px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    /* border: 3px solid gray; */
+    align-items: center;
+    justify-content: center;
+    box-shadow: 10px 10px 10px gray;
+    gap: 10px;
+    background-color: bisque;
+}
+
+
+#img{
+    height: 300px;
+    width: 300px;
+}
+
+#name{
+    font-weight: bold;
+}
+
