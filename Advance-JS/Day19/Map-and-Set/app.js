@@ -41,3 +41,50 @@ console.log(ans);
 
 
 
+
+
+
+function uniqueNum(arr)
+{
+    let set = new Set()
+    for(let item of arr)
+    {
+        if(set.has(item))
+        {
+            set.delete(item)
+        }
+        else
+        {
+            set.add(item)
+        }
+    }
+    let ans = [...set]
+    return ans
+}
+
+console.log(uniqueNum([1,2,2,3,4,3,4,5,5]))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function findMissNum(arr)
+{
+    let set = new Set(arr)
+    for(let i = 0; i <= arr.length; i++)
+    {
+        if(!set.has(i))
+        {
+            return i
+        }
+    }    
+}
