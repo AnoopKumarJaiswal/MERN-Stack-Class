@@ -670,3 +670,43 @@
 
 
 
+// let arr = [8, 6, 3, 4, 5, 9, 12, 7, 20, 22, 31, 38]
+
+// let count = 0
+// for(let i = 0; i < arr.length; i++)
+// {
+//     let ans = []
+//     for(let j = i; j < arr.length; j++)
+//     {
+//       ans.push(arr[j])
+//       if( arr[j] <= arr[j+1]  && ans.length == 4)
+//         {
+//             count++
+//         } 
+//     }
+
+// }
+// console.log(count);
+
+
+
+
+let a = 24
+let b = 12
+
+// let ans = Math.min(a,  b)
+
+// for(let i = ans; i >= 1; i--)
+// {
+//     if(a % i == 0 && b % i == 0)
+//     {
+//         console.log(i)
+//         break
+//     }
+// }
+
+
+
+let str = "asdfg"
+str.spl
+

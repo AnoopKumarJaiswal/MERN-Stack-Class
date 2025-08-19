@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+        *{
+            margin:  0px;
+            padding: 0px;
+        }
+    </style>
+</head>
+<body>
+   
+    <div id="root"></div>
+
+
+
+
+
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+
+
+    <script type="text/babel">
+        const root = ReactDOM.createRoot(document.getElementById("root"))
+
+
+        // const pTag = React.createElement("p" ,{id:"box" , class: "hi"}, "Hello World")
+        // const myList = React.createElement("ul", null , [React.createElement("li" , null ,"Apple"),React.createElement("li" , null ,"Apple"),React.createElement("li" , null ,"Apple")])
+       
+
+        // root.render(pTag)
+        // root.render(myList)
+   
+   
+   
+//         let count = 10
+//         let time = 18
+//         let arr = ["apple" , "boll" , "cat"]
+
+//         function SayHi()
+//         {
+//             let styleObj = {backgroundColor : "red"}
+
+//             return (
+//               <div id = {count} className = {"abc"} style = {styleObj}>
+//                 <h1>{time > 12 ? "GoodAfternoon" : "Good Morning"}</h1>
+//                 <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quam ut nihil perferendis quisquam iste, eum unde soluta sunt ex quo voluptatum odit quaerat, cum ullam velit odio aut ipsa.</div>
+//                 <ul>
+//                     <li>{arr[0]}</li>
+//                     <li>{arr[1]}</li>
+//                     <li>{arr[2]}</li>
+//                     </ul>
+//                 </div>
+//             )
+//         }
+
+//  root.render(SayHi())
+
+
+
+
+function NavBar()
+{
+    return(
+        <div style = {{backgroundColor : "blue" ,display :"flex" , justifyContent : "space-between", alignItems : "center", height : "60px",paddingLeft: "20px"}}>
+
+            <h3 style = {{color : "white"}}>LOGO</h3>
+
+
+
+            <div style = {{display:"flex", gap : "20px" , paddingRight : "20px"}}>
+                <a style = {{color :"white", textDecoration : "none"}} href="">Home</a>
+                <a style = {{color :"white", textDecoration : "none"}} href="">About</a>
+                <a style = {{color :"white", textDecoration : "none"}} href="">Profile</a>
+            </div>
+        </div>
+    )
+}
+
+
+root.render(NavBar())
+   </script>
+</body>
+</html>
